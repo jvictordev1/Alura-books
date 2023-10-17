@@ -63,3 +63,9 @@
     text-decoration: none;
     border-radius: 5px;
 }
+.descricao_imagem__autora {
+    height: 10em;
+}
+.card_estrelinhas {
+    padding-bottom: 0.5em;
+}
