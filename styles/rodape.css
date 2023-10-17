@@ -1,0 +1,8 @@
+.rodape {
+    background-color: var(--cor-de-fundo);
+    padding: 0.5em 0 1em 1em;
+}
+
+.rodape_texto {
+    color:var(--azul);
+}
