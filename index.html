@@ -41,7 +41,27 @@
             <h1 class="container_titulo"><b class="container_titulo__negrito">Alura</b>Books</h1>
         </div>
         <ul class="opcoes">
-            <li class="opcoes_item">Categorias</li>
+            <input type="checkbox" id="opcoes_menu" class="opcoes_menu__categorias">
+            <label for="opcoes_menu">
+                <li class="opcoes_item opcoes_item__categorias">Categorias</li>
+            </label>
+            <ul class="lista__menu">
+                <li class="lista__menu_item">
+                    <a href="#" class="lista__menu_link">Programação</a>
+                </li>
+                <li class="lista__menu_item">
+                    <a href="#" class="lista__menu_link">Front-End</a>
+                </li>
+                <li class="lista__menu_item">
+                    <a href="#" class="lista__menu_link">Infraestrutura</a>
+                </li>
+                <li class="lista__menu_item">
+                    <a href="#" class="lista__menu_link">Business</a>
+                </li>
+                <li class="lista__menu_item">
+                    <a href="#" class="lista__menu_link">Design & UX</a>
+                </li>
+            </ul>
             <li class="opcoes_item"><a href="#" class="opcoes_item__link">Favoritos</a></li>
             <li class="opcoes_item"><a href="#" class="opcoes_item__link">Minha Estante</a></li>
         </ul>
@@ -141,8 +161,10 @@
         </ul>
     </section>
     <section class="contato">
-        <h2 class="contato_titulo">Fique por dentro das novidades!</h2>
-        <p class="contato_texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <div class="contato_descricao">
+            <h2 class="contato_titulo">Fique por dentro das novidades!</h2>
+            <p class="contato_texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
         <input type="search" placeholder="Cadastre seu e-mail" class="contato_cadastro">
     </section>
     <hr/>

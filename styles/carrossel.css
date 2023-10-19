@@ -69,3 +69,37 @@
 .card_estrelinhas {
     padding-bottom: 0.5em;
 }
+@media screen and (min-width: 1024px) {
+    .carrossel_titulo {
+        background-color: var(--cor-cabecalho);
+        padding-top: 2.5em;
+        font-size: 26px;
+    }
+    .swiper-pagination {
+        margin: 3em 0 5em 0;
+    }
+    .swiper {
+        width: 80%;
+    }
+    .swiper-slide {
+        padding: 0.5em;
+    }
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+        top: 62%;
+        background-color: var(--azul);
+        padding: 0.2em 0.8em 0.2em 0.8em;
+        border-radius: 60px;
+        color: var(--cor-cabecalho);
+    }
+    .swiper-wrapper img {
+        width: 80%;
+    }
+    .card {
+        margin: 4em 15em;
+        background-color: var(--cor-cabecalho);
+    }
+    .card_descricao {
+        padding-top: 1.5em;
+    }
+}
