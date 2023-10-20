@@ -53,6 +53,12 @@
 .container_texto {
     display: none;
 }
+.container__botao:checked ~ .container_rotulo > .cabecalho__menu {
+    background-image: url("../assets/MenuAberto.svg");
+}
+.container__botao:checked ~ .container_rotulo {
+    background: var(--gradiente-azul);
+}
 @media screen and (min-width: 1024px) {
     .cabecalho {
         padding: 0 2em;
