@@ -50,6 +50,9 @@
 .opcoes {
     display: none;
 }
+.container_texto {
+    display: none;
+}
 @media screen and (min-width: 1024px) {
     .cabecalho {
         padding: 0 2em;
@@ -104,5 +107,24 @@
     .lista__menu_item:hover, .lista__menu_link:hover {
         background-color: var(--azul);
         color: var(--cor-cabecalho);
+    }
+}
+@media screen and (min-width: 1728px) {
+    .cabecalho {
+        padding: 0 3em;
+    }
+    .container_texto {
+        display: block;
+    }
+    .container_link {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        color: var(--azul);
+        font-size: 20px;
+    }
+    .opcoes {
+        margin-right: auto;
+        margin-left: 3em;
     }
 }

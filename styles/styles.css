@@ -13,6 +13,8 @@
     --gradiente-azul: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins";
     --fonte-logo: "Josefin Sans";
+    --cor-cinza: #474646;
+    --cor-cinza-claro: #858585;
 }
 body {
     background-color: var(--cor-de-fundo);

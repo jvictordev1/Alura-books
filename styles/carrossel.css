@@ -103,3 +103,39 @@
         padding-top: 1.5em;
     }
 }
+@media screen and (min-width: 1728px) {
+    .carrossel_titulo {
+        background-color: var(--cor-cabecalho);
+        padding-top: 2em;
+        font-size: 32px;
+    }
+    .carrossel_container {
+        display: flex;
+        align-items: center;
+        margin: 4vw 7vw;
+    }
+    .swiper {
+        width: 40%;
+    }
+    .swiper-pagination {
+        margin: 0;
+        padding-bottom: 1em;
+    }
+    .swiper-button-prev, .swiper-button-next {
+        top: 52%;
+    }
+    .card {
+        margin: 0;
+    }
+    .descricao_titulo {
+        color: var(--cor-secundaria);
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .card {
+        width: 40%;
+    }
+    .descricao {
+        margin: 0 5vw 0 0;
+    }
+}
